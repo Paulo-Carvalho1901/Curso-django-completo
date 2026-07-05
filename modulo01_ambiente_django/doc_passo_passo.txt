@@ -1,6 +1,19 @@
-Inicio projeto Django
+** Inicio projeto Django
 - django-admin startproject nome_pasta_projeto .
 
-Executando o servidor Django
+** Executando o servidor Django
 - python manage.py runserver
+
+** Entendo sobre estrutura das pastas
+- manege.py basicamente é um dos aquivos mais importatntes
+pois é ele que start as confi mais importatntes do projeto django
+
+- init.py serve para indicar que a pasta projeto é um pacote no python
+
+- asgi e wsgi, é utilizado em produção, onde acontece a ligação entre o django
+e o servidor em si.
+
+- settings.py, onde basicamente fica todas as config do projeto django.
+
+- urls.py é a porta de entrada da nossa aplicação.
 
