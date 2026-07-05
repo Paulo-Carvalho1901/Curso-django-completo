@@ -1,0 +1,6 @@
+Inicio projeto Django
+- django-admin startproject nome_pasta_projeto .
+
+Executando o servidor Django
+- python manage.py runserver
+
